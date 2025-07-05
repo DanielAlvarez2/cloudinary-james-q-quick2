@@ -2,4 +2,9 @@
 James Q Quick  
 34m:32s
 
-.../server$ node --watch server.js
+.../server$ node --watch --env-file=../.env server.js  
+
+url:  
+secure_url:  
+cloudinary.uploader.destroy(public_id)  
+
